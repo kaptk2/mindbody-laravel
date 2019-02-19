@@ -36,7 +36,13 @@
             "Nlocascio\\Mindbody\\Tests\\": "tests"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nlocascio\\Mindbody\\MindbodyServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
-
 }
